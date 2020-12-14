@@ -9,8 +9,6 @@ import (
 	"strconv"
 	"strings"
 	"time"
-
-	//tarti "github.com/ari-feiglin/Termi-Art"
 	"github.com/mgutz/ansi"
 )
 
