@@ -377,13 +377,6 @@ func checkUsedFile() {
 	}
 }
 
-func openFile(filename string, file *os.File) {
-	file, err := os.OpenFile(filename, os.O_APPEND|os.O_RDWR, 0644)
-	if err != nil {
-		panic(err)
-	}
-}
-
 func numLinesInFile(filename string) int {
 	file, err := os.Open(filename)
 	isErr(err)
